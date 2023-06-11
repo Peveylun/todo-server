@@ -1,0 +1,14 @@
+# Folders
+dist/*
+node_modules/*
+
+# IDE, editors, etc..
+.idea/*
+.vscode/*
+
+# env
+.env
+
+# Some stuff
+*.log
+*.gz
