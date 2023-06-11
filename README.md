@@ -8,5 +8,5 @@
 6) Write in search field `localhost:8080`
 
 ## Description
-Its just a small template with express and mongoose for you.
-Don't forgot create .env file in root directory(near package.json and other config files).
+This is just a small template with express and mongoose for you. 
+Don't forget to create an .env file in the root directory (next to package.json and other configuration files).
