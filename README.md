@@ -5,7 +5,7 @@
 3) Use `npm i`
 4) Use `npm run dev`
 5) Go to the browser
-   6) Write in search field `localhost:8080`
+6) Write in search field `localhost:8080`
 
 ## Description
 Its just a small template with express and mongoose for you.
