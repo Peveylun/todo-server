@@ -1,9 +1,11 @@
 import express, {Express, Request, Response} from 'express';
 import dotenv from 'dotenv';
-import indexRouter from "./routes/index.router";
 import logger from "./middlewares/logger";
 import Database from "./misc/db";
+
+import indexRouter from "./routes/index.router";
 import notFoundRouter from './routes/404.router';
+import todoRouter from './routes/todo.router';
 
 dotenv.config();
 
@@ -17,8 +19,11 @@ const app: Express = express();
 const PORT: string | number = process.env.PORT ? process.env.PORT : 8080;
 
 app.use('*', logger);
+app.use(express.json());
 
 app.use('/', indexRouter);
+
+app.use('/api/', todoRouter);
 
 app.use('*', notFoundRouter);
 
