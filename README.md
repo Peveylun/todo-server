@@ -8,5 +8,5 @@
 6) Write in search field `localhost:8080`
 
 ## Description
-This is just a small template with express and mongoose for you. 
+This is a server for todo website. 
 Don't forget to create an .env file in the root directory (next to package.json and other configuration files).
